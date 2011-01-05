@@ -1,197 +1,193 @@
-# EESchema Netlist Version 1.1 created  Mi 01 Dez 2010 18:38:46 GMT
+# EESchema Netlist Version 1.1 created  Mi 05 Jan 2011 10:59:58 GMT
 (
- ( /4CB2223F $noname  P2 230V {Lib=CONN_1}
-  (    1 /230V- )
+ ( /4C88E9B8 SM0805 C1 100n
+  ( 1 +5V )
+  ( 2 GND )
  )
- ( /4CB1EB3B $noname  F1 FUSE {Lib=FUSE}
-  (    1 ? )
-  (    2 /230V+ )
+ ( /4CA20D9B SM0805 C2 22pF
+  ( 1 GND )
+  ( 2 N-000015 )
  )
- ( /4CA20EB0 $noname  J2 RJ11 {Lib=RJ11}
-  (    2 +5V )
-  (    3 N-000037 )
-  (    4 N-000018 )
-  (    5 GND )
+ ( /4CA20DB3 SM0805 C3 22pF
+  ( 1 GND )
+  ( 2 N-000039 )
  )
- ( /4CA20DB3 $noname  C3 22pF {Lib=C}
-  (    1 GND )
-  (    2 N-000039 )
+ ( /4C9231AD Diode-MiniMELF_Standard_RevA_27July2010 D1 DIODE
+  ( 1 N-000029 )
+  ( 2 +5V )
  )
- ( /4CA20D9B $noname  C2 22pF {Lib=C}
-  (    1 GND )
-  (    2 N-000015 )
+ ( /4C9231D5 Diode-MiniMELF_Standard_RevA_27July2010 D2 DIODE
+  ( 1 N-000030 )
+  ( 2 +5V )
  )
- ( /4CA20D92 $noname  X1 16MHz {Lib=CRYSTAL}
-  (    1 N-000015 )
-  (    2 N-000039 )
+ ( /4C9231D8 Diode-MiniMELF_Standard_RevA_27July2010 D3 DIODE
+  ( 1 N-000031 )
+  ( 2 +5V )
  )
- ( /4CA20CF1 $noname  J1 RJ11 {Lib=RJ11}
-  (    2 +5V )
-  (    3 N-000037 )
-  (    4 N-000018 )
-  (    5 GND )
+ ( /4C9231DC Diode-MiniMELF_Standard_RevA_27July2010 D4 DIODE
+  ( 1 N-000032 )
+  ( 2 +5V )
  )
- ( /4CA20BF7 $noname  IC3 MCP2551 {Lib=MCP2551}
-  (    1 N-000008 )
-  (    2 GND )
-  (    3 +5V )
-  (    4 N-000007 )
-  (    5 ? )
-  (    6 N-000018 )
-  (    7 N-000037 )
-  (    8 N-000005 )
+ ( /4CB1EB3B FUSE_PRINT F1 FUSE
+  ( 1 ? )
+  ( 2 /230V+ )
  )
- ( /4CA209C3 $noname  IC2 MCP2515 {Lib=MCP2515}
-  (    1 N-000008 )
-  (    2 N-000007 )
-  (    3 ? )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 N-000015 )
-  (    8 N-000039 )
-  (    9 GND )
-  (   10 N-000005 )
-  (   11 ? )
-  (   12 N-000013 )
-  (   13 N-000012 )
-  (   14 N-000021 )
-  (   15 N-000040 )
-  (   16 N-000011 )
-  (   17 N-000041 )
-  (   18 +5V )
+ ( /4CA20730 SOIC14_150 IC1 ATTINY24
+  ( 1 +5V )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 N-000041 )
+  ( 5 N-000013 )
+  ( 6 N-000011 )
+  ( 7 N-000040 )
+  ( 8 N-000021 )
+  ( 9 N-000012 )
+  ( 10 N-000027 )
+  ( 11 N-000028 )
+  ( 12 N-000036 )
+  ( 13 N-000034 )
+  ( 14 GND )
  )
- ( /4CA20730 $noname  IC1 ATTINY24 {Lib=ATTINY24}
-  (    1 +5V )
-  (    2 ? )
-  (    3 ? )
-  (    4 N-000041 )
-  (    5 N-000013 )
-  (    6 N-000011 )
-  (    7 N-000040 )
-  (    8 N-000021 )
-  (    9 N-000012 )
-  (   10 N-000027 )
-  (   11 N-000028 )
-  (   12 N-000036 )
-  (   13 N-000034 )
-  (   14 GND )
+ ( /4CA209C3 SOIC18_300 IC2 MCP2515
+  ( 1 N-000008 )
+  ( 2 N-000007 )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 N-000015 )
+  ( 8 N-000039 )
+  ( 9 GND )
+  ( 10 N-000005 )
+  ( 11 ? )
+  ( 12 N-000013 )
+  ( 13 N-000012 )
+  ( 14 N-000021 )
+  ( 15 N-000040 )
+  ( 16 N-000011 )
+  ( 17 N-000041 )
+  ( 18 +5V )
  )
- ( /4C99B516 $noname  R5 15k {Lib=R}
-  (    1 N-000026 )
-  (    2 N-000027 )
+ ( /4CA20BF7 SOIC8_150 IC3 MCP2551
+  ( 1 N-000008 )
+  ( 2 GND )
+  ( 3 +5V )
+  ( 4 N-000007 )
+  ( 5 ? )
+  ( 6 N-000018 )
+  ( 7 N-000037 )
+  ( 8 N-000005 )
  )
- ( /4C99B512 $noname  R4 15k {Lib=R}
-  (    1 N-000025 )
-  (    2 N-000028 )
+ ( /4CA20CF1 RJ11_RN J1 RJ11
+  ( 2 +5V )
+  ( 3 N-000037 )
+  ( 4 N-000018 )
+  ( 5 GND )
  )
- ( /4C99B50C $noname  Q4 NPN {Lib=NPN}
-  (    1 GND )
-  (    2 N-000026 )
-  (    3 N-000032 )
+ ( /4CA20EB0 RJ11_RN J2 RJ11
+  ( 2 +5V )
+  ( 3 N-000037 )
+  ( 4 N-000018 )
+  ( 5 GND )
  )
- ( /4C99B4FF $noname  Q3 NPN {Lib=NPN}
-  (    1 GND )
-  (    2 N-000025 )
-  (    3 N-000031 )
+ ( /4C8B7816 RELAY_G6D K1 RELAY_G6D
+  ( 1 +5V )
+  ( 5 /230V- )
+  ( 7 /X1 )
+  ( 13 N-000029 )
  )
- ( /4C99B4EF $noname  R3 15k {Lib=R}
-  (    1 N-000035 )
-  (    2 N-000036 )
+ ( /4C8B78E8 RELAY_G6D K2 RELAY_G6D
+  ( 1 +5V )
+  ( 5 /230V- )
+  ( 7 /X2 )
+  ( 13 N-000030 )
  )
- ( /4C99B49A $noname  Q2 NPN {Lib=NPN}
-  (    1 GND )
-  (    2 N-000035 )
-  (    3 N-000030 )
+ ( /4C8B7933 RELAY_G6D K3 RELAY_G6D
+  ( 1 +5V )
+  ( 5 /230V- )
+  ( 7 /X3 )
+  ( 13 N-000031 )
  )
- ( /4C99B478 $noname  R2 15k {Lib=R}
-  (    1 N-000033 )
-  (    2 N-000034 )
+ ( /4C8B79C0 RELAY_G6D K4 RELAY_G6D
+  ( 1 +5V )
+  ( 5 /230V- )
+  ( 7 /X4 )
+  ( 13 N-000032 )
  )
- ( /4C99B158 $noname  Q1 NPN {Lib=NPN}
-  (    1 GND )
-  (    2 N-000033 )
-  (    3 N-000029 )
+ ( /4C8B6DB5 SIL-10_MYAVR P1 CONN_PROG_AVR
+  ( 3 N-000012 )
+  ( 4 N-000021 )
+  ( 5 N-000040 )
+  ( 6 N-000041 )
+  ( 10 GND )
  )
- ( /4C9231DC $noname  D4 DIODE {Lib=DIODE}
-  (    1 N-000032 )
-  (    2 +5V )
+ ( /4CB2223F PAD P2 230V
+  ( 1 /230V- )
  )
- ( /4C9231D8 $noname  D3 DIODE {Lib=DIODE}
-  (    1 N-000031 )
-  (    2 +5V )
+ ( /4C8B7D3C CONN_AKL2 P3 CONN_2
+  ( 1 /X1 )
+  ( 2 /230V+ )
  )
- ( /4C9231D5 $noname  D2 DIODE {Lib=DIODE}
-  (    1 N-000030 )
-  (    2 +5V )
+ ( /4C8B7D6D CONN_AKL2 P4 CONN_2
+  ( 1 /X2 )
+  ( 2 /230V+ )
  )
- ( /4C9231AD $noname  D1 DIODE {Lib=DIODE}
-  (    1 N-000029 )
-  (    2 +5V )
+ ( /4C8B7D83 CONN_AKL2 P5 CONN_2
+  ( 1 /X3 )
+  ( 2 /230V+ )
  )
- ( /4C8B7DA9 $noname  P6 CONN_2 {Lib=CONN_2}
-  (    1 /X4 )
-  (    2 /230V+ )
+ ( /4C8B7DA9 CONN_AKL2 P6 CONN_2
+  ( 1 /X4 )
+  ( 2 /230V+ )
  )
- ( /4C8B7D83 $noname  P5 CONN_2 {Lib=CONN_2}
-  (    1 /X3 )
-  (    2 /230V+ )
+ ( /4C99B158 TO92-INVERT Q1 NPN
+  ( 1 GND )
+  ( 2 N-000033 )
+  ( 3 N-000029 )
  )
- ( /4C8B7D6D $noname  P4 CONN_2 {Lib=CONN_2}
-  (    1 /X2 )
-  (    2 /230V+ )
+ ( /4C99B49A TO92 Q2 NPN
+  ( 1 GND )
+  ( 2 N-000035 )
+  ( 3 N-000030 )
  )
- ( /4C8B7D3C $noname  P3 CONN_2 {Lib=CONN_2}
-  (    1 /X1 )
-  (    2 /230V+ )
+ ( /4C99B4FF TO92 Q3 NPN
+  ( 1 GND )
+  ( 2 N-000025 )
+  ( 3 N-000031 )
  )
- ( /4C8B79C0 $noname  K4 RELAY_G6D {Lib=RELAY_G6D}
-  (    1 +5V )
-  (    5 /230V- )
-  (    7 /X4 )
-  (   13 N-000032 )
+ ( /4C99B50C TO92 Q4 NPN
+  ( 1 GND )
+  ( 2 N-000026 )
+  ( 3 N-000032 )
  )
- ( /4C8B7933 $noname  K3 RELAY_G6D {Lib=RELAY_G6D}
-  (    1 +5V )
-  (    5 /230V- )
-  (    7 /X3 )
-  (   13 N-000031 )
+ ( /4C88E685 SM0805 R1 10k
+  ( 1 +5V )
+  ( 2 N-000041 )
  )
- ( /4C8B78E8 $noname  K2 RELAY_G6D {Lib=RELAY_G6D}
-  (    1 +5V )
-  (    5 /230V- )
-  (    7 /X2 )
-  (   13 N-000030 )
+ ( /4C99B478 SM0805 R2 15k
+  ( 1 N-000033 )
+  ( 2 N-000034 )
  )
- ( /4C8B7816 $noname  K1 RELAY_G6D {Lib=RELAY_G6D}
-  (    1 +5V )
-  (    5 /230V- )
-  (    7 /X1 )
-  (   13 N-000029 )
+ ( /4C99B4EF SM0805 R3 15k
+  ( 1 N-000035 )
+  ( 2 N-000036 )
  )
- ( /4C8B6DB5 $noname  P1 CONN_PROG_AVR {Lib=CONN_PROG_AVR}
-  (    3 N-000012 )
-  (    4 N-000021 )
-  (    5 N-000040 )
-  (    6 N-000041 )
-  (   10 GND )
+ ( /4C99B512 SM0805 R4 15k
+  ( 1 N-000025 )
+  ( 2 N-000028 )
  )
- ( /4C88E9B8 $noname  C1 100n {Lib=C}
-  (    1 +5V )
-  (    2 GND )
+ ( /4C99B516 SM0805 R5 15k
+  ( 1 N-000026 )
+  ( 2 N-000027 )
  )
- ( /4C88E685 $noname  R1 10k {Lib=R}
-  (    1 +5V )
-  (    2 N-000041 )
+ ( /4CA20D92 HC-18UV X1 16MHz
+  ( 1 N-000015 )
+  ( 2 N-000039 )
  )
 )
 *
 { Allowed footprints by component:
-$component J2
- RJ11*
- RJ12*
-$endlist
-$component C3
+$component C1
  SM*
  C?
  C1-1
@@ -201,28 +197,56 @@ $component C2
  C?
  C1-1
 $endlist
-$component J1
- RJ11*
- RJ12*
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
 $endlist
 $component IC1
  DIP-14*
  SO14*
  SOIC14*
 $endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
+$component J1
+ RJ11*
+ RJ12*
 $endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
+$component J2
+ RJ11*
+ RJ12*
 $endlist
-$component R3
+$component K1
+ RELAY_G6D
+$endlist
+$component K2
+ RELAY_G6D
+$endlist
+$component K3
+ RELAY_G6D
+$endlist
+$component K4
+ RELAY_G6D
+$endlist
+$component P1
+ SIL-10_MYAVR
+$endlist
+$component R1
  R?
  SM0603
  SM0805
@@ -234,43 +258,19 @@ $component R2
  SM0805
  R?-*
 $endlist
-$component D4
- D?
- S*
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
 $endlist
-$component D3
- D?
- S*
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
 $endlist
-$component D2
- D?
- S*
-$endlist
-$component D1
- D?
- S*
-$endlist
-$component K4
- RELAY_G6D
-$endlist
-$component K3
- RELAY_G6D
-$endlist
-$component K2
- RELAY_G6D
-$endlist
-$component K1
- RELAY_G6D
-$endlist
-$component P1
- SIL-10_MYAVR
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component R1
+$component R5
  R?
  SM0603
  SM0805
@@ -278,148 +278,3 @@ $component R1
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 5 "" ""
- IC2 10
- IC3 8
-Net 7 "" ""
- IC3 4
- IC2 2
-Net 8 "" ""
- IC3 1
- IC2 1
-Net 11 "" ""
- IC1 6
- IC2 16
-Net 12 "" ""
- P1 3
- IC2 13
- IC1 9
-Net 13 "" ""
- IC2 12
- IC1 5
-Net 15 "" ""
- X1 1
- C2 2
- IC2 7
-Net 17 "/X3" "X3"
- P5 1
- K3 7
-Net 18 "" ""
- J1 4
- IC3 6
- J2 4
-Net 19 "/230V+" "230V+"
- P3 2
- P4 2
- P5 2
- P6 2
- F1 2
-Net 20 "/X4" "X4"
- K4 7
- P6 1
-Net 21 "" ""
- IC2 14
- P1 4
- IC1 8
-Net 22 "/X1" "X1"
- K1 7
- P3 1
-Net 23 "/230V-" "230V-"
- K3 5
- K4 5
- K2 5
- P2 1
- K1 5
-Net 24 "/X2" "X2"
- P4 1
- K2 7
-Net 25 "" ""
- R4 1
- Q3 2
-Net 26 "" ""
- R5 1
- Q4 2
-Net 27 "" ""
- IC1 10
- R5 2
-Net 28 "" ""
- R4 2
- IC1 11
-Net 29 "" ""
- K1 13
- Q1 3
- D1 1
-Net 30 "" ""
- K2 13
- D2 1
- Q2 3
-Net 31 "" ""
- Q3 3
- D3 1
- K3 13
-Net 32 "" ""
- D4 1
- K4 13
- Q4 3
-Net 33 "" ""
- R2 1
- Q1 2
-Net 34 "" ""
- R2 2
- IC1 13
-Net 35 "" ""
- Q2 2
- R3 1
-Net 36 "" ""
- IC1 12
- R3 2
-Net 37 "" ""
- J2 3
- J1 3
- IC3 7
-Net 38 "+5V" "+5V"
- IC1 1
- IC2 18
- K1 1
- J2 2
- C1 1
- R1 1
- K4 1
- J1 2
- K3 1
- K2 1
- IC3 3
- D1 2
- D4 2
- D2 2
- D3 2
-Net 39 "" ""
- X1 2
- IC2 8
- C3 2
-Net 40 "" ""
- P1 5
- IC2 15
- IC1 7
-Net 41 "" ""
- IC2 17
- IC1 4
- R1 2
- P1 6
-Net 42 "GND" "GND"
- Q4 1
- IC1 14
- Q1 1
- Q3 1
- IC2 9
- IC3 2
- Q2 1
- C3 1
- J2 5
- C2 1
- J1 5
- C1 2
- P1 10
-}
-#End
