@@ -33,6 +33,7 @@ LIBS:devicex
 LIBS:regulx
 LIBS:connx
 LIBS:giess-meas-legacy
+LIBS:giess-mess-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1188,7 +1189,7 @@ Connection ~ 700  7650
 Wire Wire Line
 	1100 7600 1100 7650
 Wire Wire Line
-	700  7650 1100 7650
+	1100 7650 700  7650
 Connection ~ 700  7300
 Connection ~ 4650 4450
 Wire Wire Line
@@ -1621,19 +1622,6 @@ Wire Wire Line
 	6750 1150 6650 1150
 Wire Wire Line
 	5750 750  6350 750 
-$Comp
-L GND #PWR032
-U 1 1 5B71BA1E
-P 6350 1400
-F 0 "#PWR032" H 6350 1400 30  0001 C CNN
-F 1 "GND" H 6350 1330 30  0001 C CNN
-F 2 "" H 6350 1400 60  0001 C CNN
-F 3 "" H 6350 1400 60  0001 C CNN
-	1    6350 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6350 1350 6350 1400
 Wire Wire Line
 	2150 3050 2150 3200
 Wire Wire Line
@@ -1655,4 +1643,7 @@ F 3 "" H 6300 3250 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Connection ~ 6400 3650
+Wire Wire Line
+	6350 1350 6350 1550
+Connection ~ 6350 1550
 $EndSCHEMATC
