@@ -111,7 +111,7 @@ F 3 "" H 7100 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J6
+L Conn_RJ11 J6
 U 1 1 5B86E638
 P 10000 950
 F 0 "J6" H 10000 1150 50  0000 C CNN
@@ -122,7 +122,7 @@ F 3 "" H 10000 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x04 J7
+L Conn_RJ11 J7
 U 1 1 5B86E7CD
 P 10500 950
 F 0 "J7" H 10500 1150 50  0000 C CNN
