@@ -532,8 +532,6 @@ Wire Wire Line
 Connection ~ 7100 700 
 Connection ~ 5000 4900
 Wire Wire Line
-	8100 2700 6800 2700
-Wire Wire Line
 	8100 2100 8100 2700
 Wire Wire Line
 	7900 1400 7900 1700
@@ -840,7 +838,7 @@ Wire Wire Line
 Connection ~ 7250 3800
 NoConn ~ 1100 1750
 NoConn ~ 2000 1750
-NoConn ~ 6800 1800
+NoConn ~ 6800 2000
 NoConn ~ 6800 1900
 NoConn ~ 6800 3900
 NoConn ~ 6800 4000
@@ -894,7 +892,6 @@ Wire Wire Line
 	6800 3100 7000 3100
 Wire Wire Line
 	7000 3100 7000 1000
-NoConn ~ 6800 2000
 $Comp
 L Device:Jumper_NO_Small JP4
 U 1 1 5B93A6A4
@@ -1190,4 +1187,11 @@ Wire Wire Line
 	3750 1200 3750 1500
 Connection ~ 10350 3300
 Connection ~ 10050 3300
+Wire Wire Line
+	8100 2700 7150 2700
+Wire Wire Line
+	7150 2700 7150 1800
+NoConn ~ 6800 2700
+Wire Wire Line
+	6800 1800 7150 1800
 $EndSCHEMATC
