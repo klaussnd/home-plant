@@ -1,6 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:power
-LIBS:74xx
 LIBS:connx
 LIBS:devicex
 LIBS:meas-capacity-cache
@@ -46,7 +44,7 @@ U 1 1 5B848738
 P 6750 2050
 F 0 "U3" H 6350 2400 50  0000 L CNN
 F 1 "MCP2551-I/SN" H 6850 2400 50  0000 L CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6750 1550 50  0001 C CIN
+F 2 "ICs_SMD_K:SOIC8_150" H 6750 1550 50  0001 C CIN
 F 3 "" H 6750 2050 50  0001 C CNN
 	1    6750 2050
 	1    0    0    -1  
@@ -106,7 +104,7 @@ U 1 1 5B848980
 P 6000 3300
 F 0 "Y2" H 6000 3450 50  0000 C CNN
 F 1 "16MHz" H 6000 3150 50  0000 C CNN
-F 2 "Crystals:Crystal_HC49-U_Vertical" H 6000 3300 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-U_Vertical" H 6000 3300 50  0001 C CNN
 F 3 "" H 6000 3300 50  0001 C CNN
 	1    6000 3300
 	-1   0    0    1   
@@ -114,17 +112,6 @@ $EndComp
 NoConn ~ 2700 3800
 NoConn ~ 2700 3200
 NoConn ~ 1500 2100
-$Comp
-L Connector_Generic:Conn_01x03 J1
-U 1 1 5B870B76
-P 4500 1100
-F 0 "J1" H 4500 1300 50  0000 C CNN
-F 1 "USART" H 4500 900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4500 1100 50  0001 C CNN
-F 3 "" H 4500 1100 50  0001 C CNN
-	1    4500 1100
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:VCC #PWR01
 U 1 1 5B871307
@@ -153,7 +140,7 @@ U 1 1 5B871A7B
 P 3200 2850
 F 0 "Y1" H 3200 3000 50  0000 C CNN
 F 1 "7.3728MHz" H 3200 2700 50  0000 C CNN
-F 2 "Crystals:Crystal_HC49-U_Vertical" H 3200 2850 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-U_Vertical" H 3200 2850 50  0001 C CNN
 F 3 "" H 3200 2850 50  0001 C CNN
 	1    3200 2850
 	-1   0    0    1   
@@ -182,17 +169,6 @@ F 3 "" H 3350 3000 60  0001 C CNN
 $EndComp
 NoConn ~ 6250 2150
 $Comp
-L power:GNDD #PWR03
-U 1 1 5B872FE4
-P 4600 1300
-F 0 "#PWR03" H 4600 1050 50  0001 C CNN
-F 1 "GNDD" H 4600 1175 50  0000 C CNN
-F 2 "" H 4600 1300 50  0001 C CNN
-F 3 "" H 4600 1300 50  0001 C CNN
-	1    4600 1300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 5B8748AB
 P 800 2800
@@ -220,7 +196,7 @@ U 1 1 5B8833B0
 P 2100 3000
 F 0 "U1" H 1350 4250 50  0000 L BNN
 F 1 "ATMEGA168PA-AU" H 2500 1600 50  0000 L BNN
-F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 2100 3000 50  0001 C CIN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 2100 3000 50  0001 C CIN
 F 3 "" H 2100 3000 50  0001 C CNN
 	1    2100 3000
 	1    0    0    -1  
@@ -327,15 +303,7 @@ Connection ~ 2900 700
 Wire Wire Line
 	3900 2100 3900 2700
 Wire Wire Line
-	3700 1400 3700 1700
-Wire Wire Line
-	3700 1700 3700 3500
-Wire Wire Line
 	3700 3500 2700 3500
-Wire Wire Line
-	3800 1400 3800 1450
-Wire Wire Line
-	3800 1450 3800 3600
 Wire Wire Line
 	5950 2550 5950 3050
 Wire Wire Line
@@ -354,12 +322,6 @@ Wire Wire Line
 	5850 1850 6250 1850
 Wire Wire Line
 	5850 1950 6250 1950
-Wire Wire Line
-	3800 1450 4500 1450
-Wire Wire Line
-	4500 1450 4500 1300
-Connection ~ 3800 1450
-Connection ~ 3700 1700
 Wire Wire Line
 	2700 2500 3050 2500
 Wire Wire Line
@@ -385,10 +347,6 @@ Wire Wire Line
 	4250 2650 4250 2750
 Wire Wire Line
 	4250 2750 4250 4300
-Wire Wire Line
-	4400 1300 4400 1700
-Wire Wire Line
-	4400 1700 3700 1700
 Wire Wire Line
 	4100 2650 4250 2650
 Connection ~ 4250 2650
@@ -673,4 +631,8 @@ Wire Wire Line
 NoConn ~ 2700 2700
 Wire Wire Line
 	2700 1800 2950 1800
+Wire Wire Line
+	3800 1400 3800 3600
+Wire Wire Line
+	3700 1400 3700 3500
 $EndSCHEMATC
