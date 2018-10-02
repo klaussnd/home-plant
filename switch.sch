@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:giess-schalt-cache
+LIBS:switch-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 9055 9055
@@ -36,9 +36,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 2800 4900 3450
 Connection ~ 7600 7000
-Connection ~ 7300 6900
-Wire Wire Line
-	8000 6900 8000 5600
 Wire Wire Line
 	3300 6900 5850 6900
 Wire Wire Line
@@ -46,14 +43,11 @@ Wire Wire Line
 Wire Wire Line
 	7500 5600 7500 6000
 Wire Wire Line
-	7300 6900 7300 5600
-Wire Wire Line
 	4900 6100 5100 6100
 Wire Wire Line
 	5250 6550 5100 6550
 Wire Wire Line
 	5100 6550 5100 6200
-Connection ~ 5850 6900
 Wire Wire Line
 	3400 6700 3400 7000
 Wire Wire Line
@@ -175,7 +169,7 @@ Connection ~ 6450 7000
 Wire Wire Line
 	3300 6600 3300 6900
 Wire Wire Line
-	5850 6900 5850 5500
+	5850 6900 5850 6500
 Wire Wire Line
 	5250 5950 5100 5950
 Wire Wire Line
@@ -369,7 +363,7 @@ U 1 1 4C99B50C
 P 5050 4550
 F 0 "Q4" H 5050 4400 50  0000 R CNN
 F 1 "NPN" H 5050 4700 50  0000 R CNN
-F 2 "Package_TO_SOT_THT:TO-92" H 5050 4550 60  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5050 4550 60  0001 C CNN
 F 3 "" H 5050 4550 60  0001 C CNN
 	1    5050 4550
 	1    0    0    -1  
@@ -380,7 +374,7 @@ U 1 1 4C99B4FF
 P 5050 3900
 F 0 "Q3" H 5050 3750 50  0000 R CNN
 F 1 "NPN" H 5050 4050 50  0000 R CNN
-F 2 "Package_TO_SOT_THT:TO-92" H 5050 3900 60  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5050 3900 60  0001 C CNN
 F 3 "" H 5050 3900 60  0001 C CNN
 	1    5050 3900
 	1    0    0    -1  
@@ -402,7 +396,7 @@ U 1 1 4C99B49A
 P 5050 3250
 F 0 "Q2" H 5050 3100 50  0000 R CNN
 F 1 "NPN" H 5050 3400 50  0000 R CNN
-F 2 "Package_TO_SOT_THT:TO-92" H 5050 3250 60  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5050 3250 60  0001 C CNN
 F 3 "" H 5050 3250 60  0001 C CNN
 	1    5050 3250
 	1    0    0    -1  
@@ -424,7 +418,7 @@ U 1 1 4C99B158
 P 5050 2600
 F 0 "Q1" H 5050 2450 50  0000 R CNN
 F 1 "NPN" H 5050 2750 50  0000 R CNN
-F 2 "Package_TO_SOT_THT:TO-92" H 5050 2600 60  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5050 2600 60  0001 C CNN
 F 3 "" H 5050 2600 60  0001 C CNN
 	1    5050 2600
 	1    0    0    -1  
@@ -479,7 +473,7 @@ U 1 1 4C8B7DA9
 P 6950 900
 F 0 "P6" V 6900 900 40  0000 C CNN
 F 1 "Pump" V 7000 900 40  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6950 900 60  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6950 900 60  0001 C CNN
 F 3 "" H 6950 900 60  0001 C CNN
 	1    6950 900 
 	0    -1   -1   0   
@@ -490,7 +484,7 @@ U 1 1 4C8B7D83
 P 6600 900
 F 0 "P5" V 6550 900 40  0000 C CNN
 F 1 "Pump" V 6650 900 40  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6600 900 60  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6600 900 60  0001 C CNN
 F 3 "" H 6600 900 60  0001 C CNN
 	1    6600 900 
 	0    -1   -1   0   
@@ -501,7 +495,7 @@ U 1 1 4C8B7D6D
 P 6250 900
 F 0 "P4" V 6200 900 40  0000 C CNN
 F 1 "Pump" V 6300 900 40  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6250 900 60  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6250 900 60  0001 C CNN
 F 3 "" H 6250 900 60  0001 C CNN
 	1    6250 900 
 	0    -1   -1   0   
@@ -512,7 +506,7 @@ U 1 1 4C8B7D3C
 P 5900 900
 F 0 "P3" V 5850 900 40  0000 C CNN
 F 1 "Pump" V 5950 900 40  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5900 900 60  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5900 900 60  0001 C CNN
 F 3 "" H 5900 900 60  0001 C CNN
 	1    5900 900 
 	0    -1   -1   0   
@@ -640,11 +634,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 7000 8300 7000
 Wire Wire Line
-	7300 6900 8000 6900
-Wire Wire Line
 	7400 5800 8100 5800
-Wire Wire Line
-	5850 6900 7300 6900
 Wire Wire Line
 	3200 4750 3200 5750
 Wire Wire Line
@@ -670,7 +660,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 4850 3300 5850
 Wire Wire Line
-	6450 7000 7600 7000
+	6450 7000 7000 7000
 Wire Wire Line
 	5550 7000 6450 7000
 Wire Wire Line
@@ -842,4 +832,49 @@ Connection ~ 7400 5800
 Wire Wire Line
 	6950 6000 7500 6000
 Connection ~ 7500 6000
+$Comp
+L Regulator_Linear:LP2950-5.0_TO92 U4
+U 1 1 5BB452BC
+P 7000 6500
+F 0 "U4" H 7000 6742 50  0000 C CNN
+F 1 "LP2950-5.0_TO92" H 7000 6651 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 7000 6725 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lp2950-n.pdf" H 7000 6450 50  0001 C CNN
+	1    7000 6500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 6500 7300 5600
+Wire Wire Line
+	7300 6500 8000 6500
+Wire Wire Line
+	8000 6500 8000 5600
+Connection ~ 7300 6500
+Wire Wire Line
+	6700 6500 6600 6500
+Connection ~ 5850 6500
+Wire Wire Line
+	5850 6500 5850 5500
+$Comp
+L Device:C C5
+U 1 1 5BB81BF9
+P 6600 6650
+F 0 "C5" H 6650 6750 50  0000 L CNN
+F 1 "2.2u" H 6650 6550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6600 6650 60  0001 C CNN
+F 3 "" H 6600 6650 60  0001 C CNN
+	1    6600 6650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 6500
+Wire Wire Line
+	6600 6500 5850 6500
+Wire Wire Line
+	6600 6800 7000 6800
+Wire Wire Line
+	7000 6800 7000 7000
+Connection ~ 7000 6800
+Connection ~ 7000 7000
+Wire Wire Line
+	7000 7000 7600 7000
 $EndSCHEMATC
