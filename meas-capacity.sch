@@ -402,10 +402,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 700  4250 700 
 Wire Wire Line
-	4250 700  5500 700 
-Wire Wire Line
-	5500 700  6750 700 
-Wire Wire Line
 	2700 3100 2950 3100
 NoConn ~ 2700 2000
 NoConn ~ 2700 2800
@@ -545,9 +541,6 @@ Wire Wire Line
 Connection ~ 5800 4300
 NoConn ~ 6500 4500
 NoConn ~ 5900 4500
-Wire Wire Line
-	5500 1200 5500 700 
-Connection ~ 5500 700 
 Connection ~ 5700 1200
 Wire Wire Line
 	7500 1300 7500 3800
@@ -635,4 +628,46 @@ Wire Wire Line
 	3800 1400 3800 3600
 Wire Wire Line
 	3700 1400 3700 3500
+$Comp
+L Regulator_Linear:LP2950-5.0_TO92 U4
+U 1 1 5BB42126
+P 5200 1200
+F 0 "U4" H 5200 1442 50  0000 C CNN
+F 1 "LP2950-5.0_TO92" H 5200 1351 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 5200 1425 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lp2950-n.pdf" H 5200 1150 50  0001 C CNN
+	1    5200 1200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 700  4750 700 
+Wire Wire Line
+	5200 1500 5600 1500
+Wire Wire Line
+	5600 1500 5600 1300
+Wire Wire Line
+	5600 1300 6000 1300
+Connection ~ 6000 1300
+$Comp
+L Device:C C7
+U 1 1 5BB6045F
+P 4750 1350
+F 0 "C7" H 4775 1450 50  0000 L CNN
+F 1 "2.2u" H 4775 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4788 1200 50  0001 C CNN
+F 3 "" H 4750 1350 50  0001 C CNN
+	1    4750 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1500 5200 1500
+Connection ~ 5200 1500
+Wire Wire Line
+	4750 1200 4900 1200
+Wire Wire Line
+	4750 1200 4750 700 
+Connection ~ 4750 1200
+Connection ~ 4750 700 
+Wire Wire Line
+	4750 700  6750 700 
 $EndSCHEMATC
