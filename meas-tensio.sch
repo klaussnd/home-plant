@@ -1026,7 +1026,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 3450 5400 2300
 Wire Wire Line
-	4950 900  4800 900 
+	4950 900  4850 900 
 Connection ~ 4950 900 
 $Comp
 L Device:Jumper_NO_Small JP4
@@ -1136,14 +1136,21 @@ Wire Wire Line
 Wire Wire Line
 	3550 3550 3750 3550
 Wire Wire Line
-	3750 3550 3750 3050
+	3750 3550 3750 2950
 Connection ~ 3750 3550
 Connection ~ 3550 3850
 Wire Wire Line
 	3550 3850 3750 3850
 Wire Wire Line
-	3200 3050 3750 3050
-Connection ~ 3750 3050
+	4850 900  4850 2950
 Wire Wire Line
-	3750 3050 3850 3050
+	4850 2950 3750 2950
+Wire Wire Line
+	3200 2950 3200 3050
+Wire Wire Line
+	4850 900  4800 900 
+Connection ~ 4850 900 
+Wire Wire Line
+	3750 2950 3200 2950
+Connection ~ 3750 2950
 $EndSCHEMATC
