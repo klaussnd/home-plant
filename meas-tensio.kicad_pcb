@@ -10,6 +10,11 @@
   )
 
   (page A4)
+  (title_block
+    (title "Tensiometer measurement board")
+    (company "Klaus Schneider-Zapp")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -1888,16 +1893,16 @@
     )
   )
 
+  (gr_line (start 280.67 111.76) (end 203.2 111.76) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 280.67 158.75) (end 280.67 111.76) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 203.2 158.75) (end 203.2 111.76) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 280.67 158.75) (end 203.2 158.75) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_text "2018 KSZ" (at 212.725 155.575) (layer B.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text "2018 KSZ" (at 212.725 155.575) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_line (start 180 60) (end 180 160) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 280 60) (end 180 60) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 280 160) (end 280 60) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 180 160) (end 280 160) (angle 90) (layer Edge.Cuts) (width 0.1))
 
   (segment (start 232.80116 134.38378) (end 230.512572 134.38378) (width 0.508) (layer B.Cu) (net 1) (status 400000))
   (segment (start 227.965 131.836208) (end 227.965 131.826) (width 0.508) (layer B.Cu) (net 1) (tstamp 5BC39380))
