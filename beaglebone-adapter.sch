@@ -1,0 +1,365 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GNDD #PWR01
+U 1 1 5589785A
+P 2450 3650
+F 0 "#PWR01" H 2450 3400 50  0001 C CNN
+F 1 "GNDD" H 2450 3500 50  0000 C CNN
+F 2 "" H 2450 3650 60  0000 C CNN
+F 3 "" H 2450 3650 60  0000 C CNN
+	1    2450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3250 2850 3250
+Wire Wire Line
+	2850 3250 2850 3350
+Wire Wire Line
+	2850 3550 2450 3550
+Wire Wire Line
+	2050 3550 2050 3350
+Wire Wire Line
+	2050 3250 2200 3250
+Wire Wire Line
+	2200 3350 2050 3350
+Connection ~ 2050 3350
+Wire Wire Line
+	2700 3350 2850 3350
+Connection ~ 2850 3350
+Wire Wire Line
+	2450 3650 2450 3550
+Connection ~ 2450 3550
+$Comp
+L power:GNDD #PWR02
+U 1 1 558978D3
+P 3500 1150
+F 0 "#PWR02" H 3500 900 50  0001 C CNN
+F 1 "GNDD" H 3500 1000 50  0000 C CNN
+F 2 "" H 3500 1150 60  0000 C CNN
+F 3 "" H 3500 1150 60  0000 C CNN
+	1    3500 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR03
+U 1 1 5589790A
+P 1400 1150
+F 0 "#PWR03" H 1400 900 50  0001 C CNN
+F 1 "GNDD" H 1400 1000 50  0000 C CNN
+F 2 "" H 1400 1150 60  0000 C CNN
+F 3 "" H 1400 1150 60  0000 C CNN
+	1    1400 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR04
+U 1 1 558979C1
+P 5150 1150
+F 0 "#PWR04" H 5150 900 50  0001 C CNN
+F 1 "GNDD" H 5150 1000 50  0000 C CNN
+F 2 "" H 5150 1150 60  0000 C CNN
+F 3 "" H 5150 1150 60  0000 C CNN
+	1    5150 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR05
+U 1 1 558979E8
+P 6150 1150
+F 0 "#PWR05" H 6150 900 50  0001 C CNN
+F 1 "GNDD" H 6150 1000 50  0000 C CNN
+F 2 "" H 6150 1150 60  0000 C CNN
+F 3 "" H 6150 1150 60  0000 C CNN
+	1    6150 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR06
+U 1 1 55897A67
+P 2850 950
+F 0 "#PWR06" H 2850 800 50  0001 C CNN
+F 1 "+3V3" H 2850 1090 50  0000 C CNN
+F 2 "" H 2850 950 60  0000 C CNN
+F 3 "" H 2850 950 60  0000 C CNN
+	1    2850 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 55897A7F
+P 3050 950
+F 0 "#PWR07" H 3050 800 50  0001 C CNN
+F 1 "+5V" H 3050 1090 50  0000 C CNN
+F 2 "" H 3050 950 60  0000 C CNN
+F 3 "" H 3050 950 60  0000 C CNN
+	1    3050 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1250 2850 1250
+Wire Wire Line
+	2850 1250 2850 950 
+Wire Wire Line
+	2700 1350 3050 1350
+Wire Wire Line
+	3050 1350 3050 950 
+Wire Wire Line
+	3300 950  3300 1450
+Wire Wire Line
+	3300 1450 2700 1450
+$Comp
+L power:+3.3V #PWR08
+U 1 1 55897EE7
+P 2050 950
+F 0 "#PWR08" H 2050 800 50  0001 C CNN
+F 1 "+3V3" H 2050 1090 50  0000 C CNN
+F 2 "" H 2050 950 60  0000 C CNN
+F 3 "" H 2050 950 60  0000 C CNN
+	1    2050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 55897EF8
+P 1850 950
+F 0 "#PWR09" H 1850 800 50  0001 C CNN
+F 1 "+5V" H 1850 1090 50  0000 C CNN
+F 2 "" H 1850 950 60  0000 C CNN
+F 3 "" H 1850 950 60  0000 C CNN
+	1    1850 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1250 2050 1250
+Wire Wire Line
+	2050 1250 2050 950 
+Wire Wire Line
+	2200 1350 1850 1350
+Wire Wire Line
+	1850 1350 1850 950 
+Wire Wire Line
+	2200 1450 1600 1450
+Wire Wire Line
+	1600 1450 1600 950 
+Wire Wire Line
+	2700 1150 3500 1150
+Wire Wire Line
+	2200 1150 1400 1150
+Wire Wire Line
+	5150 1150 5400 1150
+Wire Wire Line
+	5900 1150 6150 1150
+$Comp
+L pwr_BeagleBone:SYS_5V #PWR010
+U 1 1 55898497
+P 3300 950
+F 0 "#PWR010" H 3300 800 50  0001 C CNN
+F 1 "SYS_5V" H 3300 1090 50  0000 C CNN
+F 2 "" H 3300 950 60  0000 C CNN
+F 3 "" H 3300 950 60  0000 C CNN
+	1    3300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L pwr_BeagleBone:SYS_5V #PWR011
+U 1 1 558984AF
+P 1600 950
+F 0 "#PWR011" H 1600 800 50  0001 C CNN
+F 1 "SYS_5V" H 1600 1090 50  0000 C CNN
+F 2 "" H 1600 950 60  0000 C CNN
+F 3 "" H 1600 950 60  0000 C CNN
+	1    1600 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L pwr_BeagleBone:VDD_ADC #PWR012
+U 1 1 558985D8
+P 3050 2550
+F 0 "#PWR012" H 3050 2400 50  0001 C CNN
+F 1 "VDD_ADC" H 3050 2690 50  0000 C CNN
+F 2 "" H 3050 2550 60  0000 C CNN
+F 3 "" H 3050 2550 60  0000 C CNN
+	1    3050 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2650 3050 2650
+Wire Wire Line
+	3050 2650 3050 2550
+$Comp
+L pwr_BeagleBone:GNDA_ADC #PWR013
+U 1 1 5589865D
+P 3050 2750
+F 0 "#PWR013" H 3050 2500 50  0001 C CNN
+F 1 "GNDA_ADC" H 3050 2600 50  0000 C CNN
+F 2 "" H 3050 2750 60  0000 C CNN
+F 3 "" H 3050 2750 60  0000 C CNN
+	1    3050 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 2750 3050 2750
+Text GLabel 2800 1550 2    50   Input ~ 0
+SYS_RESETN
+Wire Wire Line
+	2700 1550 2800 1550
+Text GLabel 2100 1550 0    50   Input ~ 0
+PWR_BUT
+Wire Wire Line
+	2200 1550 2100 1550
+$Comp
+L Connector_Generic:Conn_02x23_Odd_Even P9
+U 1 1 55DF7DBA
+P 2400 2250
+F 0 "P9" H 2400 3450 50  0000 C CNN
+F 1 "BeagleBone_Black_Header" V 2450 2300 50  0000 C CNN
+F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 2400 1400 60  0001 C CNN
+F 3 "" H 2400 1400 60  0000 C CNN
+	1    2400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x23_Odd_Even P8
+U 1 1 55DF7DE1
+P 5600 2250
+F 0 "P8" H 5600 3450 50  0000 C CNN
+F 1 "BeagleBone_Black_Header" V 5650 2300 50  0000 C CNN
+F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 5600 1400 60  0001 C CNN
+F 3 "" H 5600 1400 60  0000 C CNN
+	1    5600 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3350 2050 3250
+Wire Wire Line
+	2850 3350 2850 3550
+Wire Wire Line
+	2450 3550 2050 3550
+Wire Wire Line
+	3450 2550 3400 2550
+Wire Wire Line
+	3850 1250 2850 1250
+Connection ~ 2850 1250
+$Comp
+L connx:Conn_RJ11 J1
+U 1 1 5BC76FBF
+P 4950 2050
+F 0 "J1" H 5030 2042 50  0000 L CNN
+F 1 "Conn_RJ11" H 5030 1951 50  0000 L CNN
+F 2 "Connectors_K:RJ11_RO" H 4950 2050 50  0001 C CNN
+F 3 "" H 4950 2050 50  0001 C CNN
+	1    4950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L connx:Conn_RJ11 J2
+U 1 1 5BC778E6
+P 4950 2500
+F 0 "J2" H 5030 2492 50  0000 L CNN
+F 1 "Conn_RJ11" H 5030 2401 50  0000 L CNN
+F 2 "Connectors_K:RJ11_RO" H 4950 2500 50  0001 C CNN
+F 3 "" H 4950 2500 50  0001 C CNN
+	1    4950 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2350 4350 2350
+Wire Wire Line
+	4350 2350 4350 2050
+Wire Wire Line
+	4350 2050 4750 2050
+Wire Wire Line
+	4350 2350 4350 2500
+Wire Wire Line
+	4350 2500 4750 2500
+Connection ~ 4350 2350
+Wire Wire Line
+	4250 2450 4450 2450
+Wire Wire Line
+	4450 2450 4450 2600
+Wire Wire Line
+	4450 2600 4750 2600
+Wire Wire Line
+	4450 2450 4450 2150
+Wire Wire Line
+	4450 2150 4750 2150
+Connection ~ 4450 2450
+Wire Wire Line
+	4750 2250 4550 2250
+Wire Wire Line
+	4550 2250 4550 2700
+Wire Wire Line
+	4550 2700 4750 2700
+Wire Wire Line
+	4750 2400 4650 2400
+Wire Wire Line
+	4650 2400 4650 1950
+Wire Wire Line
+	4650 1950 4750 1950
+$Comp
+L Interface_CAN_LIN:SN65HVD231 U1
+U 1 1 5D0F7D71
+P 3850 2350
+F 0 "U1" H 3850 2828 50  0000 C CNN
+F 1 "SN65HVD231" H 3850 2737 50  0000 C CNN
+F 2 "ICs_SMD_K:SOIC8_150" H 3850 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" H 3750 2750 50  0001 C CNN
+	1    3850 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2050 3850 1250
+Wire Wire Line
+	3850 3350 3850 2750
+Wire Wire Line
+	2850 3350 3400 3350
+$Comp
+L Device:R R1
+U 1 1 5D0FF9DF
+P 3400 2900
+F 0 "R1" H 3470 2946 50  0000 L CNN
+F 1 "10k" H 3470 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3330 2900 50  0001 C CNN
+F 3 "~" H 3400 2900 50  0001 C CNN
+	1    3400 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2550 3400 2750
+Wire Wire Line
+	3400 3050 3400 3350
+Connection ~ 3400 3350
+Wire Wire Line
+	3400 3350 3850 3350
+NoConn ~ 3450 2450
+Wire Wire Line
+	2700 2250 3300 2250
+Wire Wire Line
+	3300 2250 3300 2350
+Wire Wire Line
+	3300 2350 3450 2350
+Wire Wire Line
+	3450 2250 3400 2250
+Wire Wire Line
+	3400 2250 3400 2175
+Wire Wire Line
+	3400 2175 2825 2175
+Wire Wire Line
+	2825 2175 2825 2350
+Wire Wire Line
+	2825 2350 2700 2350
+$EndSCHEMATC
