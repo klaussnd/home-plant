@@ -1,4 +1,6 @@
 EESchema Schematic File Version 4
+LIBS:connx
+LIBS:devicex
 EELAYER 26 0
 EELAYER END
 $Descr User 8268 6693
@@ -445,14 +447,14 @@ Wire Wire Line
 Wire Wire Line
 	2950 4600 2950 3100
 $Comp
-L Connector_Generic:Conn_01x04 J2
+L Connector_Generic:Conn_01x05 J2
 U 1 1 5B95304D
-P 4700 4700
-F 0 "J2" H 4700 4900 50  0000 C CNN
-F 1 "Probe1" H 4700 4400 50  0000 C CNN
-F 2 "Connectors_K:CONN_MINI_DIN_4" H 4700 4700 50  0001 C CNN
-F 3 "" H 4700 4700 50  0001 C CNN
-	1    4700 4700
+P 4600 4700
+F 0 "J2" H 4600 4900 50  0000 C CNN
+F 1 "Probe1" V 4700 4700 50  0000 C CNN
+F 2 "Connectors_K:CONN_MINI_DIN_4" H 4600 4700 50  0001 C CNN
+F 3 "" H 4600 4700 50  0001 C CNN
+	1    4600 4700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -478,14 +480,14 @@ Wire Wire Line
 Wire Wire Line
 	4800 3900 4800 4500
 $Comp
-L Connector_Generic:Conn_01x04 J3
+L Connector_Generic:Conn_01x05 J3
 U 1 1 5B953CFF
-P 5300 4700
-F 0 "J3" H 5300 4900 50  0000 C CNN
-F 1 "Probe2" H 5300 4400 50  0000 C CNN
-F 2 "Connectors_K:CONN_MINI_DIN_4" H 5300 4700 50  0001 C CNN
-F 3 "" H 5300 4700 50  0001 C CNN
-	1    5300 4700
+P 5200 4700
+F 0 "J3" H 5200 4900 50  0000 C CNN
+F 1 "Probe2" V 5300 4700 50  0000 C CNN
+F 2 "Connectors_K:CONN_MINI_DIN_4" H 5200 4700 50  0001 C CNN
+F 3 "" H 5200 4700 50  0001 C CNN
+	1    5200 4700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -494,25 +496,25 @@ Connection ~ 4600 4300
 Wire Wire Line
 	5400 4000 5400 4500
 $Comp
-L Connector_Generic:Conn_01x04 J4
+L Connector_Generic:Conn_01x05 J4
 U 1 1 5B953F0F
-P 5900 4700
-F 0 "J4" H 5900 4900 50  0000 C CNN
-F 1 "Probe3" H 5900 4400 50  0000 C CNN
-F 2 "Connectors_K:CONN_MINI_DIN_4" H 5900 4700 50  0001 C CNN
-F 3 "" H 5900 4700 50  0001 C CNN
-	1    5900 4700
+P 5800 4700
+F 0 "J4" H 5800 4900 50  0000 C CNN
+F 1 "Probe3" V 5900 4700 50  0000 C CNN
+F 2 "Connectors_K:CONN_MINI_DIN_4" H 5800 4700 50  0001 C CNN
+F 3 "" H 5800 4700 50  0001 C CNN
+	1    5800 4700
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J5
+L Connector_Generic:Conn_01x05 J5
 U 1 1 5B953F7B
-P 6500 4700
-F 0 "J5" H 6500 4900 50  0000 C CNN
-F 1 "Probe4" H 6500 4400 50  0000 C CNN
-F 2 "Connectors_K:CONN_MINI_DIN_4" H 6500 4700 50  0001 C CNN
-F 3 "" H 6500 4700 50  0001 C CNN
-	1    6500 4700
+P 6400 4700
+F 0 "J5" H 6400 4900 50  0000 C CNN
+F 1 "Probe4" V 6500 4700 50  0000 C CNN
+F 2 "Connectors_K:CONN_MINI_DIN_4" H 6400 4700 50  0001 C CNN
+F 3 "" H 6400 4700 50  0001 C CNN
+	1    6400 4700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -667,4 +669,32 @@ Connection ~ 4750 1200
 Connection ~ 4750 700 
 Wire Wire Line
 	4750 700  6750 700 
+Wire Wire Line
+	3800 4900 4300 4900
+Wire Wire Line
+	4300 4900 4300 4500
+Wire Wire Line
+	4300 4500 4400 4500
+Connection ~ 3800 4900
+Wire Wire Line
+	4300 4900 4900 4900
+Wire Wire Line
+	4900 4900 4900 4500
+Wire Wire Line
+	4900 4500 5000 4500
+Connection ~ 4300 4900
+Wire Wire Line
+	4900 4900 5500 4900
+Wire Wire Line
+	5500 4500 5600 4500
+Connection ~ 4900 4900
+Wire Wire Line
+	5500 4500 5500 4900
+Wire Wire Line
+	5500 4900 6100 4900
+Wire Wire Line
+	6100 4900 6100 4500
+Wire Wire Line
+	6100 4500 6200 4500
+Connection ~ 5500 4900
 $EndSCHEMATC
