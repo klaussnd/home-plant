@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:meas-tensio-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 12598 5906
@@ -256,25 +255,25 @@ F 3 "" H 3300 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J1
+L Connector_Generic:Conn_01x05 J1
 U 1 1 5B8D843F
-P 650 2900
-F 0 "J1" H 650 3100 50  0000 C CNN
-F 1 "Tens4" H 650 2600 50  0000 C CNN
-F 2 "Connectors_K:CONN_MINI_DIN_4" H 650 2900 50  0001 C CNN
-F 3 "" H 650 2900 50  0001 C CNN
-	1    650  2900
+P 650 2700
+F 0 "J1" H 650 2900 50  0000 C CNN
+F 1 "Tens4" H 650 2400 50  0000 C CNN
+F 2 "Connectors_K:CONN_MINI_DIN_4" H 650 2700 50  0001 C CNN
+F 3 "" H 650 2700 50  0001 C CNN
+	1    650  2700
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J2
+L Connector_Generic:Conn_01x05 J2
 U 1 1 5B8D8446
-P 650 3400
-F 0 "J2" H 650 3600 50  0000 C CNN
-F 1 "Tens3" H 650 3100 50  0000 C CNN
-F 2 "Connectors_K:CONN_MINI_DIN_4" H 650 3400 50  0001 C CNN
-F 3 "" H 650 3400 50  0001 C CNN
-	1    650  3400
+P 650 3300
+F 0 "J2" H 650 3500 50  0000 C CNN
+F 1 "Tens3" H 650 3000 50  0000 C CNN
+F 2 "Connectors_K:CONN_MINI_DIN_4" H 650 3300 50  0001 C CNN
+F 3 "" H 650 3300 50  0001 C CNN
+	1    650  3300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -581,7 +580,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 1900 3000 1900
 Wire Wire Line
-	850  2800 1000 2800
+	850  2700 1000 2700
 Wire Wire Line
 	1550 900  1550 1450
 Connection ~ 4800 4350
@@ -612,30 +611,28 @@ Wire Wire Line
 Wire Wire Line
 	7150 3200 6800 3200
 Wire Wire Line
-	850  2900 1700 2900
+	850  2800 1700 2800
 Wire Wire Line
-	1700 2900 1700 2950
+	1700 2800 1700 2950
 Connection ~ 1550 2600
 Wire Wire Line
-	850  3000 1600 3000
+	850  2900 1600 2900
 Wire Wire Line
-	1600 3000 1600 3400
+	1600 2900 1600 3400
 Wire Wire Line
 	1600 3400 1700 3400
 Wire Wire Line
 	900  3200 850  3200
 Wire Wire Line
-	900  2600 900  2700
-Wire Wire Line
 	900  2600 1550 2600
 Wire Wire Line
-	850  2700 900  2700
-Connection ~ 900  2700
+	850  2600 900  2600
+Connection ~ 900  2600
 Wire Wire Line
-	1000 2800 1000 3300
+	1000 2700 1000 3300
 Wire Wire Line
 	1000 3300 850  3300
-Connection ~ 1000 2800
+Connection ~ 1000 2700
 Wire Wire Line
 	850  3400 1100 3400
 Wire Wire Line
@@ -645,7 +642,7 @@ Wire Wire Line
 Wire Wire Line
 	850  3500 1700 3500
 $Comp
-L Connector_Generic:Conn_01x04 J3
+L Connector_Generic:Conn_01x05 J3
 U 1 1 5B93DA54
 P 650 3900
 F 0 "J3" H 650 4100 50  0000 C CNN
@@ -656,50 +653,48 @@ F 3 "" H 650 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J4
+L Connector_Generic:Conn_01x05 J4
 U 1 1 5B93DAE4
-P 650 4400
-F 0 "J4" H 650 4600 50  0000 C CNN
-F 1 "Tens1" H 650 4100 50  0000 C CNN
-F 2 "Connectors_K:CONN_MINI_DIN_4" H 650 4400 50  0001 C CNN
-F 3 "" H 650 4400 50  0001 C CNN
-	1    650  4400
+P 650 4500
+F 0 "J4" H 650 4700 50  0000 C CNN
+F 1 "Tens1" H 650 4200 50  0000 C CNN
+F 2 "Connectors_K:CONN_MINI_DIN_4" H 650 4500 50  0001 C CNN
+F 3 "" H 650 4500 50  0001 C CNN
+	1    650  4500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	900  3700 850  3700
+	900  3800 850  3800
 Connection ~ 900  3200
+Connection ~ 900  3800
 Wire Wire Line
-	850  4200 900  4200
-Connection ~ 900  3700
-Wire Wire Line
-	1000 3800 850  3800
+	1000 3900 850  3900
 Connection ~ 1000 3300
 Wire Wire Line
-	1000 4300 850  4300
-Connection ~ 1000 3800
+	1000 4500 850  4500
+Connection ~ 1000 3900
 Wire Wire Line
-	850  3900 1200 3900
+	850  4000 1200 4000
 Wire Wire Line
-	1200 3900 1200 3150
+	1200 4000 1200 3150
 Wire Wire Line
 	1200 3150 1700 3150
 Wire Wire Line
-	850  4400 1300 4400
+	850  4600 1300 4600
 Wire Wire Line
-	1300 4400 1300 3250
+	1300 4600 1300 3250
 Wire Wire Line
 	1300 3250 1700 3250
 Wire Wire Line
-	850  4000 1100 4000
+	850  4100 1100 4100
 Wire Wire Line
-	1100 4000 1100 3600
+	1100 4100 1100 3600
 Wire Wire Line
 	1100 3600 1700 3600
 Wire Wire Line
-	850  4500 1400 4500
+	850  4700 1400 4700
 Wire Wire Line
-	1400 4500 1400 3700
+	1400 4700 1400 3700
 Wire Wire Line
 	1400 3700 1700 3700
 Wire Wire Line
@@ -758,30 +753,30 @@ Wire Wire Line
 $Comp
 L Device:Jumper_NC_Small JP1
 U 1 1 5B93C52D
-P 3000 2600
-F 0 "JP1" H 3000 2680 50  0000 C CNN
-F 1 "a10" H 3010 2540 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3000 2600 50  0001 C CNN
-F 3 "" H 3000 2600 50  0001 C CNN
-	1    3000 2600
+P 3000 2525
+F 0 "JP1" H 3000 2605 50  0000 C CNN
+F 1 "a10" H 3010 2465 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3000 2525 50  0001 C CNN
+F 3 "" H 3000 2525 50  0001 C CNN
+	1    3000 2525
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3000 1900 3000 2500
+	3000 1900 3000 2425
 $Comp
 L Device:Jumper_NO_Small JP2
 U 1 1 5B93C7BC
-P 3200 2600
-F 0 "JP2" H 3200 2680 50  0000 C CNN
-F 1 "ad" V 3210 2540 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3200 2600 50  0001 C CNN
-F 3 "" H 3200 2600 50  0001 C CNN
-	1    3200 2600
+P 3200 2525
+F 0 "JP2" H 3200 2605 50  0000 C CNN
+F 1 "ad" V 3210 2465 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3200 2525 50  0001 C CNN
+F 3 "" H 3200 2525 50  0001 C CNN
+	1    3200 2525
 	0    -1   -1   0   
 $EndComp
-Connection ~ 3000 2800
+Connection ~ 3000 2700
 Wire Wire Line
-	3000 2800 3000 2700
+	3000 2700 3000 2625
 $Comp
 L Device:R R5
 U 1 1 5B94017E
@@ -831,23 +826,23 @@ Wire Wire Line
 Wire Wire Line
 	2100 1800 2200 1800
 Wire Wire Line
-	900  2700 900  3200
+	900  2600 900  3100
 Wire Wire Line
-	1000 2800 3000 2800
+	1000 2700 3000 2700
 Wire Wire Line
 	900  3200 900  3700
 Wire Wire Line
-	900  3700 900  4200
+	900  3800 900  4300
 Wire Wire Line
-	1000 3300 1000 3800
+	1000 3300 1000 3900
 Wire Wire Line
-	1000 3800 1000 4300
+	1000 3900 1000 4500
 Wire Wire Line
 	7250 4000 7250 3300
 Wire Wire Line
 	2900 3950 2900 3850
 Wire Wire Line
-	3000 2800 3200 2800
+	3000 2700 3200 2700
 Wire Wire Line
 	9900 1400 10400 1400
 Wire Wire Line
@@ -1106,9 +1101,9 @@ Wire Wire Line
 	3750 2950 3200 2950
 Connection ~ 3750 2950
 Wire Wire Line
-	3200 2700 3200 2800
+	3200 2625 3200 2700
 Wire Wire Line
-	3200 2500 3200 900 
+	3200 2425 3200 900 
 Wire Wire Line
 	3500 900  3600 900 
 Wire Wire Line
@@ -1172,12 +1167,31 @@ Wire Wire Line
 Connection ~ 3050 4050
 Wire Wire Line
 	3050 4050 2800 4050
-Wire Wire Line
-	900  4200 1850 4200
-Wire Wire Line
-	1850 4200 1850 4350
-Wire Wire Line
-	1850 4350 2900 4350
-Connection ~ 900  4200
 Connection ~ 2900 4350
+Wire Wire Line
+	900  4350 2900 4350
+Wire Wire Line
+	850  4400 900  4400
+Wire Wire Line
+	900  4400 900  4350
+Connection ~ 900  4350
+Wire Wire Line
+	850  4300 900  4300
+Connection ~ 900  4300
+Wire Wire Line
+	900  4300 900  4350
+Wire Wire Line
+	850  3700 900  3700
+Connection ~ 900  3700
+Wire Wire Line
+	900  3700 900  3800
+Wire Wire Line
+	850  2500 900  2500
+Wire Wire Line
+	900  2500 900  2600
+Wire Wire Line
+	850  3100 900  3100
+Connection ~ 900  3100
+Wire Wire Line
+	900  3100 900  3200
 $EndSCHEMATC
