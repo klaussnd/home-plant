@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:meas-tensio-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 12598 5906
@@ -495,8 +496,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 3150 2800 3100
 Wire Wire Line
-	2800 3100 2500 3100
-Wire Wire Line
 	2900 3950 2800 3950
 Wire Wire Line
 	2900 3150 2800 3150
@@ -750,33 +749,8 @@ Wire Wire Line
 	6800 3300 7000 3300
 Wire Wire Line
 	7000 3300 7000 1200
-$Comp
-L Device:Jumper_NC_Small JP1
-U 1 1 5B93C52D
-P 3000 2525
-F 0 "JP1" H 3000 2605 50  0000 C CNN
-F 1 "a10" H 3010 2465 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3000 2525 50  0001 C CNN
-F 3 "" H 3000 2525 50  0001 C CNN
-	1    3000 2525
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	3000 1900 3000 2425
-$Comp
-L Device:Jumper_NO_Small JP2
-U 1 1 5B93C7BC
-P 3200 2525
-F 0 "JP2" H 3200 2605 50  0000 C CNN
-F 1 "ad" V 3210 2465 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3200 2525 50  0001 C CNN
-F 3 "" H 3200 2525 50  0001 C CNN
-	1    3200 2525
-	0    -1   -1   0   
-$EndComp
-Connection ~ 3000 2700
-Wire Wire Line
-	3000 2700 3000 2625
+	3000 1900 3000 2700
 $Comp
 L Device:R R5
 U 1 1 5B94017E
@@ -841,8 +815,6 @@ Wire Wire Line
 	7250 4000 7250 3300
 Wire Wire Line
 	2900 3950 2900 3850
-Wire Wire Line
-	3000 2700 3200 2700
 Wire Wire Line
 	9900 1400 10400 1400
 Wire Wire Line
@@ -1101,16 +1073,7 @@ Wire Wire Line
 	3750 2950 3200 2950
 Connection ~ 3750 2950
 Wire Wire Line
-	3200 2625 3200 2700
-Wire Wire Line
-	3200 2425 3200 900 
-Wire Wire Line
 	3500 900  3600 900 
-Wire Wire Line
-	1550 900  3200 900 
-Wire Wire Line
-	3200 900  3500 900 
-Connection ~ 3200 900 
 Connection ~ 3500 900 
 Wire Wire Line
 	4300 900  4400 900 
@@ -1194,4 +1157,6 @@ Wire Wire Line
 Connection ~ 900  3100
 Wire Wire Line
 	900  3100 900  3200
+Wire Wire Line
+	1550 900  3500 900 
 $EndSCHEMATC
